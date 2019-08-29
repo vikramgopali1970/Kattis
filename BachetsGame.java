@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class BachetsGame {
 
-    public void bachetsGame() {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int stones = sc.nextInt();
         int m = sc.nextInt();
